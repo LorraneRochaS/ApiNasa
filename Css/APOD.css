@@ -1,5 +1,15 @@
 
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.retorno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 

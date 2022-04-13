@@ -1,0 +1,16 @@
+bory,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Pacifico';
+}
+
+
+ /* Link com fontes
+  <link
+href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Pacifico&family=Permanent+Marker&family=Playfair+Display&family=Press+Start+2P&display=swap"
+rel="stylesheet"> */

@@ -5,40 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/reset.css">
     <link rel="stylesheet" href="./Css/APOD.css">
     <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Pacifico&family=Permanent+Marker&family=Playfair+Display&family=Press+Start+2P&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Pacifico&family=Permanent+Marker&family=Playfair+Display&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="imagem" href="./imagens/38dcb838b9371ab848af2a45a511ee2e.jpg" />
     <title>Foto do Dia Nasa</title>
+
 </head>
 
 <body>
-<header>
-    <a>Imagem do dia </a>
-</header>
+
+    <main>
+    <header>
+        <p> Astronomy Picture of the Day</p>
+    </header>
 
     <section class="inicio">
-        <h1> Escolha uma data</h1>
+        <h1> Choose A Date</h1>
         <form>
-        <input id="data" type="date">
-        <input type="submit" id="submit">
-        
-    </form>
+            <input id="data" type="date">
+            <input type="submit" id="submit">
+
+        </form>
+    
+        <span> </span>
+        <h2 id="nome"></h2>
+        <img id="imagem" src="">
+        <iframe id="video"></iframe>
+
     </section>
+    <footer>
+        <small> All rights reserved </small>
+        <small> Lorrane Rocha da Silva 2022</small>
+        <small> ©NASA - Use for Teaching Purposes </small>
+    
+    </footer>
+</main>
 
-<section class="retorno">
 
-    <span>  </span> <h2 id="nome"></h2>
-    <img id="imagem" src="">
-    <iframe id="video"></iframe>
 
-</section>
-  
-   
-  
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
-<script src="./js/testes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/APOD.js"></script>
 </body>
 
 </html>
